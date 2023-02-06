@@ -1,0 +1,356 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:arial;
+	
+}
+body{
+	background:#ebecf4;
+	
+}
+header{
+	background:#080f71;
+	display:flex;
+	
+}
+header .logo{
+	margin-left:400px;
+	
+}
+header .td{
+	margin-left:auto;
+	margin-top:40px;
+	color:white;
+	margin-right:10px;
+	
+} 
+header .logo img{
+	width:200px;
+	height:100px;
+	
+}
+.menu_bar{
+	background:#1b1b1b;
+	display:flex;
+	justify-content:center;
+	
+	
+}
+.menu_bar ul li{
+	display:inline-flex;
+	padding:10px;
+	margin-top:10px;
+	
+	
+	
+}
+.menu_bar ul li:hover{
+	background:red;
+	
+}
+.menu_bar ul li a{
+	text-decoration:none;
+	color:white;
+	
+}
+.section_conatiner{
+
+	display:flex;
+	justify-content:space-between;
+	
+	
+}
+.section_conatiner .section_field{
+	background:white;
+}
+.section_conatiner .section_field h1{
+	margin:20px 40px;
+	text-transform:uppercase;
+	
+	
+}
+.section_conatiner .section_field .section_group{
+	
+	width:650px;
+	border:0.5px solid #a1a1a4;
+	margin:10px 20px;
+	display:flex;
+	justify-content:space-between;
+	flex-basis:32%;
+
+	
+	
+}
+.section_conatiner .section_field .section_group .section_img img{
+	width:200px;
+	height:180px;
+	margin:10px;
+	border:1px solid #080f71;
+	
+}
+.section_conatiner .section_field .section_group .field_container{
+	display:flex;
+	flex-direction:column;
+	
+}
+.section_conatiner .section_field .section_group .field_container .field_title p{
+	font-size:18px;
+	line-height:25px;
+	margin:10px 10px 0;
+	
+	
+	
+	
+}
+.section_conatiner .section_field .section_group .field_container .field_title p a{
+	color:#080f71;
+	text-decoration:none;
+	
+}
+.section_conatiner .section_field .section_group .field_container .field_title p a:hover{
+	text-decoration:underline;
+	
+}
+.section_conatiner .section_field .section_group .field_container .field_par span{
+	color:#a1a1a4;
+	font-size:15px;
+	margin-right:10px;
+	margin-left:10px;
+	display:inline-block;
+	
+	
+	
+}
+.section_conatiner .section_field .section_group .field_container .field_disc{
+	font-size:15px;
+	line-height:22px;
+	margin:10px;
+	color:#a1a1a4;
+	
+}
+.section_conatiner .section_field .section_group .field_container .read_more{
+	margin-left:auto;
+	display:block;
+	padding:5px;
+	background:#080f71;
+	
+	
+	
+	
+	
+}
+.section_conatiner .section_field .section_group .field_container .read_more:hover{
+	background:red;
+}
+.section_conatiner .section_field .section_group .field_container .read_more a{
+	color:white;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:12px;
+	
+}
+.section_conatiner .sidebar{
+	height:300px;
+	width:30%;
+	
+	margin:10px 20px;
+}
+.section_conatiner .section_field .pagination{
+	
+	display:flex;
+	justify-content:center;
+	margin:20px;
+	
+	
+
+}
+.section_conatiner .section_field .pagination a:hover{
+	background:red;
+}
+.section_conatiner .section_field .pagination a{
+	display:block;
+	margin-left:8px;
+	background:#080f71;
+	padding:5px;
+	color:white;
+	text-decoration:none;
+	
+	
+	
+}
+.section_conatiner .sidebar{
+	width:50%;
+	
+	
+	margin:5px 8px;
+	height:600px;
+	display:flex;
+	flex-direction:column;
+	
+}
+
+.section_conatiner .sidebar .search_bar{
+	
+	height:150px;
+	background:white;
+	border:0.5px solid #a1a1a4;
+	
+}
+.section_conatiner .sidebar .search_bar h1{
+	font-size:30px;
+	padding:10px;
+	text-transform:uppercase;
+	color:#080f71;
+	
+}
+.section_conatiner .sidebar .search_bar  .search_field{
+	margin-left:40px;
+	padding:10px;
+	width:200px;
+	height:30px;
+	
+	
+}
+.section_conatiner .sidebar .search_bar  .submit_btn:hover{
+	background:red;
+}
+.section_conatiner .sidebar .search_bar  .submit_btn{
+	background:#080f71;
+	width:100px;
+	font-size:18px;
+	height:30px;
+	color:white;
+	margin-top:10px;
+	margin-left:40px;
+	border:none;
+	
+	
+	
+	
+	
+	
+}
+.section_conatiner .sidebar .recent_field{
+	margin-top:40px;
+	background:white;
+	
+	
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group {
+	display:flex;
+	border:0.5px solid #a1a1a4;
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_img{
+	margin:10px;
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_img img{
+	width:100px;
+	height:80px;
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_title{
+	margin-top:10px;
+	
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_title a{
+		color:#080f71;
+	text-decoration:none;
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_title a:hover{
+	text-decoration:underline;
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_par{
+	display:inline-flex;
+	font-size:10px;
+	line-height:20px;
+	color:#a1a1a4;
+	
+	
+	
+	
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_par span{
+	margin:5px;
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_read_more a{
+	display:block;
+	padding:5px 0;
+	background:#080f71;
+	text-decoration:none;
+	color:white;
+	margin:10px;
+	text-align:center;
+	font-size:12px;
+	
+}
+.section_conatiner .sidebar .recent_field .recent_group .recent_read_more a:hover{
+	
+	background:red;
+	
+}
+
+
+footer{
+	background:#080f71;
+	padding:10px;
+	text-align:center;
+	color:white;
+	font-size:15px;
+	
+}
+.section_conatiner .section_field .section_group .single_conatainer .single_title{
+	margin:10px;
+	
+}
+.section_conatiner .section_field .section_group .single_conatainer .single_title a{
+	font-size:25px;
+		color:#080f71;
+	text-decoration:none;
+	line-height:35px;
+	
+	
+	
+	
+} 
+.section_conatiner .section_field .section_group .single_conatainer .single_par {
+	margin:10px;
+}
+.section_conatiner .section_field .section_group .single_conatainer .single_par span{
+	display:inline-block;
+	margin-right:10px;
+	color:#a1a1a4;
+	
+	
+	
+}
+.section_conatiner .section_field .section_group .single_conatainer .single_img{
+	
+	margin:10px;
+	
+	
+}
+.section_conatiner .section_field .section_group .single_conatainer .single_img img{
+	display:flex;
+	margin:auto;
+	height:250px;
+	width:350px;
+	
+}
+.section_conatiner .section_field .section_group .single_conatainer .single_disc p{
+	line-height:30px;
+	margin:10px;
+	
+	
+	
+}
+i.fa{
+	padding-right:10px;
+	
+}
